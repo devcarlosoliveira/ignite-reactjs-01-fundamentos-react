@@ -1,7 +1,7 @@
 export function Post(props) {
     return (
         <>
-            <strong>{props.author}</strong>
+            <p><strong>{props.author}</strong></p>
             <p>{props.content}</p>
         </>
         
